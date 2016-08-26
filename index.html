@@ -1,1 +1,167 @@
-default
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto Insurance Rate Analysis</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Auto Insurance Rate Analysis">
+  <meta name="author" content="A. Trivelli">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Auto Insurance Rate Analysis</h1>
+    <h2>What Is Driving Different Auto Insurance Premiums Across States</h2>
+    <p>A. Trivelli<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Introduction</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>People often complain that automobile insurance is wildly expensive in their state...</p>
+
+<p>Part of this is perception but a portion is rooted in actual premium rates differences.  We are all aware that the rates do vary based upon a person&#39;s demographics, driving record and even the type of car they are driving.  Putting these aside though, we are going to explore:</p>
+
+<ul>
+<li>Are there fundamental baseline differences in the rate structures across the states?</li>
+<li>What is driving these rate differences?</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Varying Auto Insurance Premiums Across States</h2>
+  </hgroup>
+  <article data-timings="">
+    <h4>Some Basic Statistics</h4>
+
+<p><img src="assets/fig/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"></p>
+
+<ul>
+<li><p>The type of policy whether NoFault, Choice or Tort(Not NoFault) has some effect in the spread of Premiums.</p></li>
+<li><p>But, the distribution of auto premiums are more than likely being driven by other factors given the individual spreads within Policy type.</p></li>
+</ul>
+
+<blockquote>
+<p>We really need to explore the data further...</p>
+</blockquote>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Are There Relevant Factors That are Driving the Varying Premiums or are Insurers Price Gouging Across Different States ?</h2>
+  </hgroup>
+  <article data-timings="">
+    <h4>Many factors can be driving auto premium differences such as:</h4>
+
+<ul>
+<li>Driver Demographics/Type of Car</li>
+<li>Points on License</li>
+<li>Historical Accidents</li>
+<li>Theft/Larceny Associated with the geographical area</li>
+<li>Miles driven</li>
+<li>Urban/Suburban/Rural attributing factors</li>
+<li>Others...</li>
+</ul>
+
+<h4>To analyze these factors is a larger effort than afforded here, but can we find a factor(s) that proves or disproves the price gouging hypothesis and if so against what outcome ?</h4>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Use the Insurance Premium Analysis App to Explore and Correlate between Rate and Underlying Factors</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="./assets/img/InsuranceShinyApp.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="600" /></p>
+
+<h5>Hint: Are the amount of claims generated on a state by state basis a signigicant factor to Premium pricing/rates ?</h5>
+
+<p><a href="https://trivea.shinyapps.io/InsuranceShiny/" title="Data Products">To visit the Insurance Premium Analysis App, follow this URL link</a></p>
+
+<h4>Thank you</h4>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Introduction'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Varying Auto Insurance Premiums Across States'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Are There Relevant Factors That are Driving the Varying Premiums or are Insurers Price Gouging Across Different States ?'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Use the Insurance Premium Analysis App to Explore and Correlate between Rate and Underlying Factors'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
