@@ -54,8 +54,7 @@ Part of this is perception but a portion is rooted in actual premium rates diffe
 * Historical Accidents
 * Theft/Larceny Associated with the geographical area
 * Miles driven
-* Urban/Suburban/Rural attributing factors
-* Others...
+* Urban/Suburban/Rural attributing factors and others...
 
 #### To analyze these factors is a larger effort than afforded here, but can we find a factor(s) that proves or disproves the price gouging hypothesis and if so against what outcome ?
 
@@ -66,7 +65,7 @@ Part of this is perception but a portion is rooted in actual premium rates diffe
 
 <img src="./assets/img/InsuranceShinyApp.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="600" />
 
-##### Hint: Are the amount of claims generated on a state by state basis a signigicant factor to Premium pricing/rates ?
+##### Hint: Are the amount of claims generated on a state by state basis a significant factor to Premium pricing/rates ?
 
 [To visit the Insurance Premium Analysis App, follow this URL link]( https://trivea.shinyapps.io/InsuranceShiny/ "Data Products")
 
